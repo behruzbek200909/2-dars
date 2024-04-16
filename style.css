@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    background: #FCF8F2;
+}
+
+.hero__wrapp{
+    background-image: url(./future.png/IMAGE\ \(83\).png),url(./future.png/IMAGE\ \(84\).png);
+    background-repeat: no-repeat;
+}
+
+.hero__clock{
+    background-image: url(./future.png/IMAGE\ \(85\).png),url(./future.png/IMAGE\ \(86\).png);
+    background-repeat: no-repeat;
+    
+}
+
+.hero__wrapper {
+    width: 95%;
+    padding-top: 500px;
+}
+
+.hero__wrapper__content h1{
+    width: 85%;
+    font-family: 'Roboto',sans-serif;
+font-size: 116px;
+font-weight: 400;
+line-height: 131.31px;
+letter-spacing: 3.5810999870300293px;
+text-align: right;
+color: #232323;
+margin-left: 100px;
+}
+
+.hero__wrapper__content p{
+    width: 23%;
+    height: 80px;
+    font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 30.18px;
+text-align: left;
+color: #232323;
+}
+
+.hero__wrapper__content button{
+    width: 152px;
+height: 31px;
+border-radius: 9999px;
+border: none;
+background: #232323;
+font-family: 'Roboto',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.8px;
+text-align: center;
+color: #FCF8F2;
+}
+
+.garden h2{
+    height: 70px;
+    font-family: 'Roboto',sans-serif;
+font-size: 45px;
+font-weight: 400;
+line-height: 60.99px;
+letter-spacing: 1.5011999607086182px;
+text-align: left;
+color: #232323; 
+}
+
+.garden p{
+    height: 100px;
+    font-family: 'Roboto',sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 29.3px;
+text-align: left;
+color: #232323;
+}
+
+.uzum{
+    width: 1023px;
+    height: 580px;
+    background: #F2EBE0;
+    border-radius: 12px;
+     margin-top: 100px;
+}
+
+
+.uzum__market{
+    width: 85%;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+.uzum__market__tez a{
+    font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #232323;
+text-decoration: none;
+}
+
+.uzum__market__tez h2{
+    font-family: 'Roboto',sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 39.55px;
+letter-spacing: 0.9887999892234802px;
+text-align: left;
+color: #232323;
+}
+
+.uzum__market__tez p{
+    font-family: 'Roboto',sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 29.3px;
+text-align: left;
+}
+
+.uzum__market__tez button{
+    width: 225px;
+height: 22px;
+border-radius: 9999px;
+border: 1px;
+background: #232323;
+font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 22.8px;
+text-align: center;
+color: #FCF8F2;
+margin-top: 20px;
+}
+
+.karl  {
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.happy__sad{
+    padding-top: 918px;
+    display: flex;
+    gap: 50px;
+}
+
+.happy__sad__afraid h2{
+    font-family: 'Roboto',sans-serif;
+font-size: 29px;
+font-weight: 400;
+line-height: 39.55px;
+letter-spacing: 0.9887999892234802px;
+text-align: left;
+color: #232323;
+}
+
+.happy__sad__afraid p{
+    height: 70px;
+    font-family: 'Roboto',sans-serif;
+font-size: 21px;
+font-weight: 400;
+line-height: 29.38px;
+letter-spacing: 0.7343999743461609px;
+text-align: left;
+color: #232323;
+padding-top: 10px;
+}
+
+.happy__sad__afraid a{
+    font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 29.3px;
+text-align: left;
+color: #232323;
+text-decoration: none;
+}       
+
+.tired{
+    width: 135px;
+height: 40px;
+border-radius: 12px;
+    background: #ECE2CE;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+color: #232323;
+}
+
+.hungry{
+    width: 109px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #ECE2CE;
+    background: none;
+}
+
+.bored{
+    width: 145px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #ECE2CE;
+    background: none;
+}
+
+.garden p{
+   font-family: 'Roboto',sans-serif;
+font-size: 21px;
+font-weight: 400;
+line-height: 29.38px;
+letter-spacing: 0.7343999743461609px;
+text-align: left;
+color: #000; 
+}
+
+.garden a{
+    font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 29.3px;
+text-align: left;
+color: #232323;
+text-decoration: none;
+}
+
+.mors{
+    height: 60px;
+    display: flex;
+   gap: 10px;
+    align-items: center;
+}
+
+.metr{
+     display: flex;
+     gap: 10px;
+    align-items: center;
+}
+
+.bir{
+    width: 190px;
+height: 40px;
+border-radius: 12px;
+background: #ECE2CE;
+font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+color: #232323;
+border: none;
+margin-top: 20px;
+}
+
+.ikki{
+    width: 126px;
+height: 40px;
+border-radius: 12px;
+border: 1px ;
+border: 1px solid #ECE2CE;
+font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+background: none;
+
+}
+
+.uch{
+    width: 111px;
+height: 40px;
+border-radius: 12px;
+border: 1px;
+border: 1px solid #ECE2CE;
+font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+color: #232323;
+background: none;
+}
+
+.pen{
+    height: 664px;
+    background: #22566D;
+    margin-top: 200px;
+}
+
+.spurt{
+    position: absolute;
+    top: 640%;
+    left: 10%
+}
+
+.sipert{
+    position: absolute;
+    left: 57%;
+}
+
+.spart {
+    position: absolute;
+    top: 742%;
+}
+
+.pen__staples h2{
+    width: 100%;
+    font-family: 'Roboto',sans-serif;
+font-size: 44px;
+font-weight: 400;
+line-height: 60.99px;
+letter-spacing: 1.5011999607086182px;
+text-align: center;
+color: #E1EBF0;
+padding-top: 158px;
+}
+
+.vacuum{
+    height: 524px;
+    background: #E1EBF0;
+}
+
+.vacuum__fan{
+    width: 35%;
+    margin-left: 65%;
+     padding-top: 100px;
+}
+
+.vacuum__fan__iron h2{
+    height: 140px;
+    font-family: 'Roboto',sans-serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 60.99px;
+letter-spacing: 1.5011999607086182px;
+text-align: left;
+color: #22566D;
+}
+
+.vacuum__fan__iron p{
+    height: 115px;
+    font-family: 'Roboto',sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 29.3px;
+text-align: left;
+color: #22566D;
+}
+
+.vacuum__fan__iron button{
+    width: 160px;
+height: 22px;
+border-radius: 9999px;
+border: 1px;
+    background: #232323;
+    font-family: 'Roboto',sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.8px;
+text-align: center;
+color: #fff;
+}
+.radio {
+    margin-top: 100px;
+}
+
+
+.radio p{
+    width: 60%;
+    height: 100px;
+    font-family: 'Roboto',sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 29.38px;
+letter-spacing: 0.7343999743461609px;
+text-align: left;
+color: #232323;
+}
+
+.radio button{
+    width: 115px;
+height: 40px;
+border-radius: 9999px;
+border: none;
+background: #232323;
+font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 22.8px;
+text-align: center;
+color: #FCF8F2;
+margin-left: 80%;
+margin-top: 10px;
+}
+
+.radio a{
+    font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 29.3px;
+text-align: left;
+color: #000;
+text-decoration: none;
+}
+
+.chiziq{
+    width: 762.58px;
+height: 1px;
+opacity: 0px;
+background: #0000000F;
+margin-left: 15%;
+}
+
+.qil{
+    background: #ECE2CE;
+    margin-top: 100px;
+}
+
+.qil__mish{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.qidirmish p{
+    height: 30px;
+    font-family: 'Roboto',sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 29.37px;
+text-align: left;
+color: #232323;
+}
+
+.qidirmish nav ul{
+    list-style: none;
+}
+
+.qidirmish nav ul a{
+    font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #000;
+    text-decoration: none;
+}
+
+.super{
+    display: flex;
+    gap: 220px;
+    padding-top: 50px;
+}
+
+.super__yutuq p{
+    font-family: 'Roboto',sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 29.37px;
+text-align: left;
+    color: #232323;
+}
+
+.super__yutuq nav ul {
+    list-style: none;
+}
+
+.super__yutuq a{
+    font-family: 'Roboto',sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #232323;
+text-decoration: none;
+}
